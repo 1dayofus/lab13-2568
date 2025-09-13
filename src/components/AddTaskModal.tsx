@@ -11,7 +11,7 @@ import {
   Text,
 } from "@mantine/core";
 import { DateInput } from "@mantine/dates";
-import { useTaskFormStore } from "/Users/1day/Desktop/CMU/CPE/lab13-2568/src/store/TaskFromStore1.tsx";
+import { useTaskFormStore } from "../store/TaskFromStore1";
 
 interface AddTaskModalProps {
   opened: boolean;
